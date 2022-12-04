@@ -1,0 +1,23 @@
+/* Add application styles & imports to this file! */
+h1 {
+  color: orange;
+}
+
+p {
+  color: #ddd;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+*::selection {
+  background-color: red;
+  color: #fff;
+}
+
+html {
+  margin: 0;
+  background-color: #252525;
+}
