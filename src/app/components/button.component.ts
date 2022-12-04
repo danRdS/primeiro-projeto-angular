@@ -7,12 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class Button {
   @Input() label: string;
-  buttonText: string = 'Acessar';
+  /*buttonText: string = 'Acessar';
   buttonNumber: number = 1;
   buttonTexts: string[] = ['VENDER', 'COMPRAR'];
   buttonObject = {
     label: 'adicionar ao carrinho',
-  };
+  };*/
   getAlert() {
     alert(this.label);
   }
